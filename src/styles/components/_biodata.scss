@@ -1,12 +1,12 @@
 .biodata {
-    display: flex;
-    gap: 5rem;
+  display: flex;
+  gap: 5rem;
 
-    &__title {
-        margin: 0 0 1rem 0;
-        font-size: 2rem;
-    }
-    &__project {
-        font-size: 1.3rem;
-    }
+  &__title {
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+  }
+  &__project {
+    font-size: 1.3rem;
+  }
 }

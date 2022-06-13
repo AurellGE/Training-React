@@ -11,11 +11,6 @@
       "id": 2
     },
     {
-      "id": 3,
-      "title": "Richest person in the world",
-      "detail": "Who is currently the richest person in the world?"
-    },
-    {
       "id": 4,
       "title": "Google CEO",
       "detail": "Who is the CEO of Google"
@@ -36,32 +31,21 @@
       "detail": "How many string actually a guitar has?"
     },
     {
-      "id": 8,
-      "title": "Gluten in rice",
-      "detail": "Does rice consist of gluten?"
-    },
-    {
       "id": 9,
       "title": "Indonesia's startup unicorn",
       "detail": "How many startup unicorn in Indonesia?"
     },
     {
-      "id": 10,
-      "title": "Pluto planet",
-      "detail": "Does pluto still called as planet?"
-    },
-    {
-      "id": 11,
-      "title": "Martabak vs Apam Balek",
-      "detail": "What is the difference between martabak and apam balek?"
-    },
-    {
-      "id": 12,
       "title": "Uninstall Internet Explorer",
-      "detail": "Can i just uninstall internet explorer since I don't neet it"
+      "detail": "Can i just uninstall internet explorer since I don't neet it",
+      "id": 12
+    },
+    {
+      "title": "King of Dawn in FFXV",
+      "detail": "Why is Noctis called the king of dawn in Final Fantasy XV",
+      "id": 13
     }
   ],
-
   "portfolio": [
     {
       "id": 1,

@@ -31,8 +31,12 @@ const QuestionListPage = () => {
 
   return (
     <>
-      <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} /> <br></br>
-      <Link to="/add" className="btn btn-primary btn-add"> Add Question </Link>
+      <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />{" "}
+      <br></br>
+      <Link to="/add" className="btn btn-primary btn-add">
+        {" "}
+        Add Question{" "}
+      </Link>
       <div className="list">{renderQuestionList()}</div>
     </>
   );

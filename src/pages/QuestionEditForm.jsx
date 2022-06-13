@@ -33,36 +33,43 @@ const QuestionEditForm = () => {
 
   const deleteQuestion = async (e) => {
     try {
-        axios.delete(`https://localhost:4000/questions/${id}`)
-        .then(alert("Question deleted"));
-        navigate("/");
-      } catch (e) {
-          alert (e);
-      }
+      axios.delete(`http://localhost:4000/questions/${id}`);
+      navigate("/");
+    } catch (e) {
+      alert(e);
+    }
   };
 
   return (
-    <form onSubmit={(e) => updateQuetion(e)} className="question-form">
-      <h1 className="question-form__title">Edit Question</h1>
+    <>
+      <form onSubmit={(e) => updateQuetion(e)} className="question-form">
+        <h1 className="question-form__title">Edit Question</h1>
 
-      <label>Title</label>
-      <input value={title} onChange={(e) => setTitle(e.target.value)} type="text" className="question-form__input" />
+        <label>Title</label>
+        <input
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          type="text"
+          className="question-form__input"
+        />
 
-      <label>Detail</label>
-      <input value={detail} onChange={(e) => setDetail(e.target.value)} type="text" className="question-form__input" />
-      <button type="submit" className="btn btn-primary">
-        Submit
-      </button>
-      <button onClick={deleteQuestion} className="btn btn-primary">
+        <label>Detail</label>
+        <input
+          value={detail}
+          onChange={(e) => setDetail(e.target.value)}
+          type="text"
+          className="question-form__input"
+        />
+        <button type="submit" className="btn btn-primary">
+          Submit
+        </button>
+      </form>
+
+      <button onClick={deleteQuestion} className="btn btn-primary btn-delete">
         Delete
       </button>
-    </form>
-
+    </>
   );
-  
-
-    <form onSubmit={(e) => deleteQuestion(e)} className="question-form">
-    </form>
 };
 
 export default QuestionEditForm;

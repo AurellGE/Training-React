@@ -10,9 +10,9 @@ const QuestionAddForm = () => {
   const [questions, setQuestions] = useState([]);
 
   useEffect(() => {
-        const fetchQuestions = async () => {
-            const res = await axios.get("http://localhost:4000/questions");
-            setQuestions(res.data);
+    const fetchQuestions = async () => {
+      const res = await axios.get("http://localhost:4000/questions");
+      setQuestions(res.data);
     };
     fetchQuestions();
   }, []);
@@ -21,12 +21,13 @@ const QuestionAddForm = () => {
     e.preventDefault();
 
     try {
-        await axios.post(`http://localhost:4000/questions`, { 
-            title, 
-            detail })
-        navigate("/");
+      await axios.post(`http://localhost:4000/questions`, {
+        title,
+        detail,
+      });
+      navigate("/");
     } catch (e) {
-        alert(e);
+      alert(e);
     }
   };
 
@@ -35,12 +36,22 @@ const QuestionAddForm = () => {
       <h1 className="question-form__title">Add Question</h1>
 
       <label className="question-form__label">Title</label>
-      <input value={title} onChange={(e) => setTitle(e.target.value)} type="text" className="question-form__input" />
-      
+      <input
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
+        type="text"
+        className="question-form__input"
+      />
+
       <label className="question-form__label">Detail</label>
-      <input value={detail} onChange={(e) => setDetail(e.target.value)} type="text" className="question-form__input" />
-      
-      <button type="submit"  className="btn btn-primary">
+      <input
+        value={detail}
+        onChange={(e) => setDetail(e.target.value)}
+        type="text"
+        className="question-form__input"
+      />
+
+      <button type="submit" className="btn btn-primary">
         Submit
       </button>
     </form>
