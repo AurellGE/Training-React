@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "title": "What does the fox shout?",
+      "detail": "Does anybody know what actually the fox say?",
+      "id": 1
+    },
+    {
+      "title": "Indonesia and Australia time difference",
+      "detail": "What actually the time difference between Indonesia and Australian in GMT",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "title": "Richest person in the world",
+      "detail": "Who is currently the richest person in the world?"
+    },
+    {
+      "id": 4,
+      "title": "Google CEO",
+      "detail": "Who is the CEO of Google"
+    },
+    {
+      "id": 5,
+      "title": "Next Full Moon",
+      "detail": "When the next full moon be?"
+    },
+    {
+      "id": 6,
+      "title": "Number of kidney to live",
+      "detail": "Can human still alife if there is only one kidney?"
+    },
+    {
+      "id": 7,
+      "title": "Number of guitar string",
+      "detail": "How many string actually a guitar has?"
+    },
+    {
+      "id": 8,
+      "title": "Gluten in rice",
+      "detail": "Does rice consist of gluten?"
+    },
+    {
+      "id": 9,
+      "title": "Indonesia's startup unicorn",
+      "detail": "How many startup unicorn in Indonesia?"
+    },
+    {
+      "id": 10,
+      "title": "Pluto planet",
+      "detail": "Does pluto still called as planet?"
+    },
+    {
+      "id": 11,
+      "title": "Martabak vs Apam Balek",
+      "detail": "What is the difference between martabak and apam balek?"
+    },
+    {
+      "id": 12,
+      "title": "Uninstall Internet Explorer",
+      "detail": "Can i just uninstall internet explorer since I don't neet it"
+    }
+  ],
+
+  "portfolio": [
+    {
+      "id": 1,
+      "project": "TPM Mini Project",
+      "date": "December 2021",
+      "detail": "A mini project for Technology Project Member (TPM), creating a simple company profile",
+      "link": "https://github.com/AurellGE/TPM-Front-End/tree/master/Mini%20Project"
+    },
+    {
+      "id": 2,
+      "project": "TPM Final Project",
+      "date": "January 2022",
+      "detail": "A final project for Technology Project Member (TPM), creating a mockup for Hackathon 5.0 (not the actual website for the current TechnoScape) with a team that consists of UI/UX, Front-end, and Back-end members",
+      "link": "https://github.com/AurellGE/TPM-Final-Project"
+    },
+    {
+      "id": 3,
+      "project": "LnT Mid Project",
+      "date": "February 2022",
+      "detail": "A mid project for LnT class, a web portfolio of mine",
+      "link": "https://github.com/AurellGE/LnT-Mid-Project"
+    },
+    {
+      "id": 4,
+      "project": "LnT Mini Quiz",
+      "date": "March 2022",
+      "detail": "An assignment for LnT regeneration using Python, featuring LnT fun and mini quiz",
+      "link": "https://github.com/AurellGE/LnT-Mini-Quiz"
+    },
+    {
+      "id": 5,
+      "project": "Lorem Company Profile",
+      "date": "March 2022",
+      "detail": "An assignment for FAVE regeneration, creating a company profile for a fake company called Lorem",
+      "link": "https://github.com/AurellGE/Regen-FAVE"
+    },
+    {
+      "id": 6,
+      "project": "de Loop Company Profile",
+      "date": "March 2022",
+      "detail": "A required project to enter B-Com, creating a company profile for a fake company called de Loop",
+      "link": "https://github.com/AurellGE/B-Com_Quest_Aurellia-GIta-Elysia"
+    }
+  ]
+}
